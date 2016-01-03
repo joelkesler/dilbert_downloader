@@ -1,12 +1,11 @@
 #!/bin/sh
 
+
 # Inspired by https://github.com/ondrg/dilbert-downloader
-
-
-
 # Edit the variables below to choose your the dates you wish to download
+# FYI the first comic was in 1989-04-16
 
-date_start='2015-01-01' # FYI the first comic was in 1989-04-16
+date_start='2015-01-01'
 date_end="2016-01-01"
 url='http://dilbert.com'
 
@@ -29,4 +28,3 @@ done;
 
 
 exit 0
-doi
